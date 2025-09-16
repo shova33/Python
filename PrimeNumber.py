@@ -5,7 +5,7 @@ counter = 0
 for i in range (1 , user_input + 1):
     if user_input % i == 0:
         counter += 1
-        if counter == 2:
-            print("The number is prime")
-        else:
-            print("The number is not prime")
+if counter == 2:
+    print("The number is prime")
+else:
+    print("The number is not prime")
